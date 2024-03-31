@@ -34,3 +34,8 @@ button {
 pre {
     white-space: pre-wrap;
 }
+#barcode-url { 
+    float: right; 
+    width: 30px;
+    margin-top: -5px;
+}
