@@ -1,5 +1,9 @@
+* { 
+    color: #e2e2e2; 
+    font-family: Arial, sans-serif; 
+    box-sizing: border-box;
+}
 html, body { margin: 0; padding: 0; }
-* { color: #e2e2e2; font-family: Arial, sans-serif }
 body { background-color: #222; }
 .header {
     padding: 15px;
@@ -8,6 +12,15 @@ body { background-color: #222; }
 .body {
     padding: 1px 15px;
 }
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    padding: 15px;
+    background-color: #2f2f2f;
+}
+
 input[type="text"] { 
     background-color: #2f2f2f; 
     padding:5px; 
@@ -17,4 +30,7 @@ input[type="text"] {
 button { 
     background-color: #222; 
     border: none; 
+}
+pre {
+    white-space: pre-wrap;
 }
