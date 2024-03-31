@@ -36,6 +36,8 @@ pre {
 }
 #barcode-url { 
     float: right; 
+}
+#barcode-url img { 
     width: 30px;
     margin-top: -5px;
 }
