@@ -1,0 +1,20 @@
+html, body { margin: 0; padding: 0; }
+* { color: #e2e2e2; font-family: Arial, sans-serif }
+body { background-color: #222; }
+.header {
+    padding: 15px;
+    background-color: #2f2f2f;
+}
+.body {
+    padding: 1px 15px;
+}
+input[type="text"] { 
+    background-color: #2f2f2f; 
+    padding:5px; 
+    border: none;
+    outline: none;
+}
+button { 
+    background-color: #222; 
+    border: none; 
+}
